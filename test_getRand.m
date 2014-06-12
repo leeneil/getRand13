@@ -10,6 +10,7 @@ end
 
 figure(1),
 hist(X1, 0:9);
+ylabel('counts');
 
 %% verify getRand10
 
@@ -22,5 +23,4 @@ end
 figure(2),
 % hist(X2);
 hist(X2, 0:12);
-max(X2)
-min(X2)
+ylabel('counts');
