@@ -1,9 +1,8 @@
 function X = getRand13(~)
 
 
-X = 100*(getRand10()+1) + 10*(getRand10()+1) + 1*(getRand10()+1);
+X = 100*getRand10() + 10*getRand10() + 1*getRand10();
 
-X = X - 111;
 X = X / 999;
 X = X * 13;
 
