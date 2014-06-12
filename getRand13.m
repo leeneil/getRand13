@@ -1,8 +1,5 @@
 function X = getRand13(~)
-M = 10;
-X = 0;
-for t = 1:M
-    X = X + getRand10();
-end
 
-X = floor( (12/(9*M+1)) * (X + 1) );
+% X = ceil( 13/110 * ( 10*(getRand10()+1) + (getRand10()+1)  ) ) - 1;
+X = ( getRand10()+0 ) + 10*( getRand10()+0) + 100*( getRand10()+0);
+X = floor( X / 999 * 13 ) + 0;
