@@ -1,4 +1,4 @@
-N = 1000;
+N = 10000;
 
 %% verify getRand10
 
@@ -20,4 +20,7 @@ for t = 1:N
 end
 
 figure(2),
+% hist(X2);
 hist(X2, 0:12);
+max(X2)
+min(X2)
