@@ -1,3 +1,3 @@
 function X = getRand10(~)
 
-X = randi(9);
+X = randi([0 9]);
