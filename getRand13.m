@@ -7,6 +7,6 @@ X = X / 999;
 X = X * 13;
 
 X = ceil(X) - 1;
-if X <0
+if X < 0
     X = 0;
 end

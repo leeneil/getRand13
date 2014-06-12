@@ -1,4 +1,4 @@
-N = 10000;
+N = 5000;
 
 %% verify getRand10
 
@@ -21,6 +21,5 @@ for t = 1:N
 end
 
 figure(2),
-% hist(X2);
 hist(X2, 0:12);
 ylabel('counts');
